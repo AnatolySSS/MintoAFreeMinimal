@@ -1,0 +1,305 @@
+  * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+header {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e8e8e8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.line1 {
+  background-color: #a292b3;
+  height: 8px;
+}
+
+.line2 {
+  background-color: #a292b3;
+  height: 8px;
+}
+
+.logo {
+  background-color: #e8e8e8;
+  height: 129px;
+}
+
+.Group_4 {
+  width: 71px;
+  height: 71px;
+}
+
+.picture {
+  float: left;
+  margin-top: 40px;
+  margin-left: 140px;
+  width: auto;
+}
+
+.text_1 {
+  float: left;
+  font-size: 39px;
+  color: #a292b3;
+  font-family: "Segoe UI";
+  width: auto;
+  margin-top: 50px;
+  margin-left: 16px;
+}
+
+.nav_all {
+  float: right;
+  width: 60%;
+  margin-top: 65px;
+}
+
+.nav_div {
+  display: inline;
+  padding-right: 80px;
+}
+
+.nav_one {
+  font-size: 19px;
+  color: #545454;
+  font-family: "Segoe UI";
+}
+
+.menu {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e8e8e8;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* New */
+.new {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+  transition: 0.6s ease;
+}
+
+.new:hover {
+  opacity: 1;
+}
+
+.title_big {
+  position: absolute;
+  font-size: 117px;
+  line-height: 36px;
+  color: #ffffff;
+  font-family: "Bookman Old Style";
+  left: 35%;
+  text-shadow: 3px 5.196px 0px rgba(130,105,157,0.75);
+  top:40%;
+}
+
+.title_small {
+  position: absolute;
+  left: 15%;
+  top: 60%;
+  font-size: 31px;
+  line-height: 36px;
+  color: #ffffff;
+  font-family: "Bookman Old Style";
+  font-weight: 300;
+  text-shadow: 0.5px 0.866px 0px rgba(0,0,0,0.45);
+}
+
+.blockquote {
+  margin-top: 20px;
+}
+
+.bqtxt {
+  width: 915px;
+  margin: 0 auto;
+  font-size: 23px;
+  color: #494848;
+  font-family: "Segoe UI";
+  font-style: italic;;
+  text-align: center;
+}
+
+.lorem {
+  width: 915px;
+  height: 146px;
+  font-size: 23px;
+  color: #82699d;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-style: italic;;
+  text-align: center;
+}
+
+.layer > img {
+  display: block;
+  margin: 0 auto;
+  width: 890px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  margin-top: -22px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  opacity: 0.6;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  opacity: 1;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.circle {
+  float: left;
+}
+
+.content {
+  padding-top: 20px;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.article {
+  padding-left: 350px;
+}
+
+.Lorem2 {
+  font-size: 31px;
+  line-height: 36px;
+  color: #505051;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.bqtxt2 {
+  font-size: 15px;
+  line-height: 28px;
+  color: #838383;
+  font-family: "Segoe UI";
+  margin-bottom: 16px;
+}
+
+.read {
+  float: right;
+  display: block;
+  width: 77px;
+  font-size: 13px;
+  color: #82699d;
+  font-family: "Segoe UI";
+  font-style: italic;;
+  margin-right: 0px;
+}
+
+.clients {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+footer {
+  background-color: #e8e8e8;
+}
+
+.footer {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.copyright {
+  float: left;
+  font-size: 15px;
+  line-height: 36px;
+  color: #454242;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  text-align: center;
+}
+
+.social {
+  float: right;
+  width: 100px;
+  margin-right: 0;
+}
+
+.clearfix {
+  clear:both;
+  padding-bottom: 10px;
+}
